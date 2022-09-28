@@ -2,7 +2,7 @@ import Navbar from "/component/navbar.js";
 
 function App() {
   return (
-<<<<<<< HEAD
+    <>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,8 +19,6 @@ function App() {
         </a>
       </header>
     </div>
-=======
-    <>
       <Navbar title="Saim Babar" about="About Us" />
 
       <div className="container" my-10>
@@ -31,7 +29,6 @@ function App() {
         <Counter />
       </div>
     </>
->>>>>>> e726e27cb4f2ca00e6dd26994d191da3dbaa5d08
   );
 }
 export default App;
